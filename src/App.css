@@ -1,0 +1,7 @@
+* {
+  margin: 0;
+  box-sizing: unset !important;
+}
+body {
+  background-color: rgb(234, 237, 237) !important;
+}

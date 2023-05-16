@@ -1,0 +1,44 @@
+.footer ul h5 {
+  /* padding-bottom: 5px; */
+  padding-top: 25px;
+  color: white;
+}
+.footer {
+  background-color: #232f3e;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.footer ul li {
+  list-style: none;
+  opacity: 0.8;
+  /* padding: 5px; */
+  padding-top: 5px;
+}
+
+.footer ul a,
+.footer h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer h3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  opacity: 0.8;
+}
+
+.footer h3:hover {
+  opacity: 1;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 758px) {
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+  }
+}

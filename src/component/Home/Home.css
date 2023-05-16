@@ -1,0 +1,19 @@
+.home {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1500px !important;
+}
+.home__image {
+  position: relative !important;
+  width: 100% !important;
+  z-index: inherit !important;
+  margin-bottom: -120px !important;
+  mask-image: linear-gradient(black 50%, transparent) !important;
+  /* mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%); */
+}
+.home__row {
+  position: relative !important;
+  display: flex !important;
+  z-index: 1 !important;
+  margin: 0 5px !important;
+}
